@@ -1,0 +1,16 @@
+.slides-navigation a.prev,
+.slides-navigation a.next{
+    width: 48px;
+    height: 48px;
+    backgorund-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev{
+    left: 30px;
+    background-image: url(../img/icons/backarrow.png);
+}
+.slides-navigation a.next{
+    right: 30px;
+    background-image: url(../img/icons/nextarrow.png);
+}
