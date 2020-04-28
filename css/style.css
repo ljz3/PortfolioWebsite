@@ -1,3 +1,15 @@
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0,0, 0, 0.45);
+}
+
+.slides-navigation{
+    z-index: 6;
+}
+
 .slides-navigation a.prev,
 .slides-navigation a.next{
     width: 48px;
@@ -13,4 +25,29 @@
 .slides-navigation a.next{
     right: 30px;
     background-image: url(../img/icons/nextarrow.png);
+}
+
+.titleMessage{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 50%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.titleMessage .heading p{
+    color: #fff;
+    text-shadow: 0px 2px 5px rgba(0,0, 0, 0.4);
+    font-weight: 100;
+    letter-spacing: 8px;
+}
+
+.titleMessage .heading .main{
+    font-size: 50px;
+}
+
+.titleMessage .heading .sub{
+    font-size: 25px;
 }
