@@ -260,3 +260,13 @@ body{
 .items{
     padding: 0;
 }
+
+.copyrightSection{
+    background-color: #000000;
+    color: #dcdde1;
+    padding: 30px 5px;
+}
+
+.copyrightSection p{
+    margin: 0;
+}
