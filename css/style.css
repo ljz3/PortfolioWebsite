@@ -69,6 +69,10 @@ body{
     margin: 0 100px;
 }
 
+.skillsDescHeading{
+    padding: 0 0 5% 0;
+}
+
 .profilepic{
     width: 100%;
     padding: 0 10%;
@@ -106,7 +110,6 @@ body{
 
 .chart .percent:after{
     content: '%';
-
 }
 
 .contactSection{
