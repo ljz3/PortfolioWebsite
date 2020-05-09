@@ -323,3 +323,33 @@ footer .github:hover{
     background-color: #e84118; 
 }
 
+#navigation{
+    background-color: #487eb0;
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li{
+    padding: 0 10px;
+}
+
+#navigation li a{
+    color: #f5f6fa;
+}
+
+.navbar-brand,
+.navbar-brand:hover{
+    color: #f5f6fa;
+}
+
+.navbar-toggler-icon{
+    background: url(../img/icons/menu.png);
+    background-size: 100%;
+}
+
+.fixedNav #navigation{
+    position: fixed;
+    top: 0;
+}
+
