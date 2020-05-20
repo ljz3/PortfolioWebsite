@@ -51,6 +51,14 @@ body{
     letter-spacing: 8px;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin: 10% 10%px 0 0;
+    font-size: 15px;
+    text-align: justify;
+
+}
 .titleMessage .heading .main{
     font-size: 50px;
 }
@@ -71,6 +79,10 @@ body{
     padding: 0 0 5% 0;
 }
 
+.titleMessage p{
+    text-align: center;
+}
+
 .profilepic{
     width: 100%;
     padding: 0 10%;
@@ -79,6 +91,10 @@ body{
 .skillsSection{
     background-color: #273c75;
     color: #f5f6fa;
+}
+
+.skillsSection p{
+    text-align: center;
 }
 
 .skill {
