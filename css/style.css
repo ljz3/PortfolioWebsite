@@ -1,8 +1,9 @@
 body{
-    font-size: 14px;
+    font-size: 18px;
     color: #333;
     background-color: #f5f6fa;
     letter-spacing: 1px;
+    font-family: 'Lora', serif;
 }
 
 .overlay{
@@ -15,6 +16,10 @@ body{
 
 .slides-navigation{
     z-index: 6;
+}
+.strokeText {
+    
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important;
 }
 
 .slides-navigation a.prev,
@@ -60,7 +65,7 @@ p {
 
 }
 .titleMessage .heading .main{
-    font-size: 50px;
+    font-size: 4em;
 }
 
 .titleMessage .heading .sub{
